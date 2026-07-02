@@ -1,0 +1,4 @@
+# Full-page plan rasters are large and regenerable via templates/rasterize-plan.py.
+# Keep only the crops the diagrams actually reference.
+takeoffs/**/plan-images/*_full.png
+uploads/_examples-templates/images/*_full.png

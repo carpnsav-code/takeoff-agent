@@ -31,3 +31,15 @@ This repo is the working channel for building construction takeoffs for **polish
 4. [Surface prep & moisture](knowledge-base/04-surface-prep-and-moisture.md) — CSP profiles, shot blast vs. grind, ASTM moisture testing, mitigation
 5. [Reading plans & specs](knowledge-base/05-reading-plans-and-specs.md) — where scope hides in bid documents, finish schedules, RFI triggers
 6. [Measurement rules](knowledge-base/06-measurement-rules.md) — how to quantify SF/LF/EA, deducts, edges, joints, mobilizations
+7. [Visual plan markup](knowledge-base/07-visual-plan-markup.md) — the marked-up-plan diagram standard (house style) and the repeatable render workflow
+
+## Takeoff diagram tooling (`templates/`)
+
+The deliverable for every job includes a one-sheet **marked-up plan**: the real drawing with our
+scope highlighted, SF badged on top, and spec/quantity/risk/RFI panels. To build one:
+
+- `rasterize-plan.py` — turn a plan PDF (or a crop) into a high-res PNG background (`pip install pymupdf`)
+- `takeoff-diagram-template.html` — tokenized, working diagram; copy per project and fill in
+- `render-diagram.js` — screenshot the finished HTML to PNG via the bundled Chromium
+
+See `knowledge-base/07` for the step-by-step and `uploads/_examples-templates/` for the Camp Bow Wow style exemplar.
