@@ -1,7 +1,33 @@
 # Agent instructions — Takeoff channel
 
 This repo produces construction takeoffs for **concrete polishing** and **epoxy/resinous flooring**.
-When documents are uploaded or a takeoff is requested, follow this workflow.
+
+## SOP (the standard for this channel)
+
+Every job runs these three steps, in order:
+
+1. **Upload plans & specs.** The user drops documents (into `uploads/<project>/` when possible).
+   Read everything: rasterize/inspect the drawings, read the spec sections word-for-word, and
+   inventory what's present vs. missing.
+2. **Ask any questions you need — before building.** This is a required gate, not optional. After
+   the document inventory, surface anything that blocks an accurate takeoff and ask the user
+   (use `AskUserQuestion` for real decisions; batch questions, don't dribble them). Typical:
+   which trade/scope is ours, is there a dimensioned/CAD plan to measure from, known site/slab
+   conditions, spec↔plan conflicts, or missing documents the user may have. If nothing genuinely
+   blocks you, say what you're assuming and proceed. Distinguish **questions to the user** (to
+   proceed) from **RFIs** (formal bid questions to the design team) — you still produce the RFI
+   list in step 3.
+3. **Build out the takeoff.** Produce the full package in `takeoffs/<project>/`:
+   - `takeoff-quantity-sheet.csv` — completed from `templates/`
+   - `scope-letter.md` — inclusions / exclusions / clarifications
+   - `rfi-list.md` — numbered bid questions
+   - **the marked-up-plan diagram** (`*-takeoff-diagram.html` + rendered `.png`) — the actual
+     drawing with our scope highlighted, SF badged on it, and spec/measurement/quantity/risk/RFI
+     panels. This is a required deliverable. Build it per `knowledge-base/07-visual-plan-markup.md`
+     using the tooling in `templates/` (`rasterize-plan.py` → `takeoff-diagram-template.html` →
+     `render-diagram.js`). Send the PNG to the user and commit/push everything.
+
+The detailed per-bid workflow below expands step 3.
 
 ## Workflow for a new bid
 
@@ -23,6 +49,8 @@ When documents are uploaded or a takeoff is requested, follow this workflow.
    `takeoffs/<project>/` and completing it. Also produce:
    - `scope-letter.md` from `checklists/scope-letter-template.md` (inclusions/exclusions/clarifications)
    - `rfi-list.md` — every ambiguity, conflict, or missing document as a numbered question
+   - **the marked-up-plan diagram** — required; see `knowledge-base/07-visual-plan-markup.md` and
+     `templates/` (rasterize the plan, copy the diagram template, render to PNG, send + commit).
 6. **Run the master checklist** (`checklists/takeoff-checklist.md`) before calling it done.
 
 ## Rules

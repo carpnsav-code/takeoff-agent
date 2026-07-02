@@ -3,6 +3,11 @@
 This repo is the working channel for building construction takeoffs for **polished concrete**
 (CSI 03 35 43) and **epoxy / resinous flooring systems** (CSI 09 67 23).
 
+## SOP — how every job runs (see [SOP.md](SOP.md))
+
+1. **Upload plans & specs** → 2. **The agent asks any questions it needs** → 3. **The agent builds
+the takeoff** (quantity sheet, scope letter, RFI list, and a marked-up-plan diagram).
+
 ## How this channel works
 
 1. **Upload documents** — spec sheets, drawings/plans, finish schedules, addenda, RFI responses,
