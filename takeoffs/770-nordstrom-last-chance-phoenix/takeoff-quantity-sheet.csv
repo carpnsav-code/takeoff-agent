@@ -1,0 +1,27 @@
+ID,Category,Area/Room,System/Description,Qty,Unit,Source (sheet/scale/schedule),Notes/Assumptions
+PC-01,Polished Concrete,Sales floor (tenant space),"Level 3 polish, 800 grit, DOI 50-65 (D5767), gloss >=35 (D523), natural gray / NO dye",~18000,SF,SD02 scope note + 033536 3.9.E,"ESTIMATE / RFI-01. Gross sales floor = dept footprints (~13,330 SF) grossed up for circulation. Confirm exact SF via CAD/dimensioned plan before pricing."
+PC-01a,Polished Concrete,Net merchandising footprint (reference),Sum of SD02 department SF tags,13330,SF,SD02 department tags,"Reference only (incl ~1,035 SF est. for '!!UPDATE!!' women's area). NOT the polished SF."
+PC-02,Polished Concrete,BOH office areas,Level 3 polish (IF in scope),0,SF,033536 3.1.D vs SD02 note,"RFI-02. Spec says polish BOH offices before wall framing; SD02 note limits scope to sales floor. Excluded pending RFI."
+PC-03,Polished Concrete,Perimeter + columns,Edge / hand grind & polish band,~1400,LF,033536 2.3.B/3.4.E,"ESTIMATE / RFI-01. ~6-8in band at walls/columns. Needs dimensioned plan; scales with true perimeter."
+PC-04,Polished Concrete,Field,Densifier/hardener (low-VOC silicate) to rejection,~18000,SF,033536 2.2.A/3.6,Tracks PC-01 SF. Coverage ~200-400 SF/gal; carry porous-slab low end.
+PC-05,Polished Concrete,Field,Topical finishing sealer (non-film-forming),~18000,SF,033536 2.2.B/3.9.C,Tracks PC-01 SF.
+JT-01,Joints,Field,Semi-rigid polyurea joint fill (Shore A75) at control/construction joints,~1800,LF,033536 2.4.D/3.3.B,"ESTIMATE / RFI-03. No joint layout provided; assumed ~10-15 ft grid over polished area. Colored to match gray. Fill >=72 hr before grinding."
+JT-02,Joints,Field,Active crack / movement joint fill (semi-rigid),ALLOW 300,LF,033536 3.3.B/3.5,"Allowance; existing slab. Unit price beyond allowance."
+SP-01,Surface Prep,Sales floor,Residual carpet adhesive/mastic removal + slab clean to polishable,~18000,SF,SD02 demo note,"RFI-04. Carpet demo by others assumed; adhesive removal by us. Unit price if heavy/multi-layer. Asbestos mastic EXCLUDED."
+SP-02,Surface Prep,Field,Surface patching/repair - Rapid Set Cement All tinted (pin holes/pop-outs/spalls),ALLOW 500,SF,033536 2.2.D/3.5,Allowance; existing-slab imperfections. Unit price beyond allowance.
+SP-03,Surface Prep,Field,Polishing overlay topping (self-leveling) IF slab unsuitable,0,SF,033536 2.2.C/3.2.E,"EXCLUDED from base - UNIT PRICE ADD. CSP 3-5 prep, acid prohibited. Large potential cost on old slab."
+MM-01,Moisture,Field,ASTM F2170 RH probes,~21,EA,033536 3.1.C.4.b,3 per first 1000 SF + 1 per addl 1000 SF at ~18000 SF. Confirm who pays (owner testing agency vs us).
+MM-02,Moisture,Field,ASTM F1869 calcium chloride (MVER) tests,~18,EA,033536 3.1.C.4.c,~1 per 1000 SF. Notify Architect if >8 lb.
+MM-03,Moisture,Field,ASTM F710 pH tests,ALLOW,LS,033536 3.1.C.4.a,Notify Architect if pH <8 or >10.
+MM-04,Moisture,Field,Moisture mitigation / remediation if tests exceed limits,0,SF,033536 3.1.C.5,"EXCLUDED from base - UNIT PRICE ADD. Triggered by RH>75% / MVER>8 / pH out of range."
+DT-01,Details,Sales floor,Brass department markers (1in brass rod, 2in deep),4,EA,SD02 '(4) DEPARTMENT MARKERS' + 030133 2.1.D,"Confirm markers in polish scope vs GC. Includes locating/drilling/setting flush."
+DT-02,Details,Sales floor,Brass marker mock-up (1 location),1,EA,030133 1.4,Required before installing markers.
+QA-01,Quality,Project,Mock-up 10x10 ft w/ saw-cut joint + joint filler,1,EA,033536 1.6.B,Same crew as production; maintained as standard.
+QA-02,Quality,Project,Field COF testing - qualified walkway auditor (ANSI A326.3),1,LS,033536 3.11,Confirm us vs owner. Carry allowance.
+QA-03,Quality,Project,Pre-installation conference (attend),1,LS,033536 1.6.C,GC + installer + mfg rep.
+GN-01,General,Project,Dust control / containment / HEPA + pre-separator,1,LS,033536 2.3.A.2 / 3.2.C,Seal off adjacent areas; occupied-mall context.
+GN-02,General,Project,Finished-floor protection - kraft curing paper (NO poly),~18000,SF,033536 3.12,Tracks PC-01. Confirm duration/responsibility hand-off.
+GN-03,General,Project,Extra stock - 5 gal mfg cleaning agent,1,LS,033536 1.5.E,To owner at closeout.
+GN-04,General,Project,Submittals / closeout / maintenance instruction / warranty,1,LS,033536 1.4/1.5,Incl warranty draft + manufacturer standard warranty.
+GN-05,General,Project,Mobilizations / phasing,2,EA,033536 3.1.D,"Assumed 2: BOH/early areas before wall framing, then main sales floor. Confirm phasing."
+GN-06,General,Project,Slurry/dust disposal per AHJ,1,LS,033536 3.6.C,Wet slurry or dry dust disposal.
