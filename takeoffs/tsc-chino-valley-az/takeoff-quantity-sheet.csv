@@ -1,0 +1,30 @@
+ID,Category,Area/Room,System/Description,Qty,Unit,Source (sheet/scale/schedule),Notes/Assumptions
+PC-01,Polished Concrete,Retail Sales (101/102),"Euclid polished concrete, 7-step, SOGV>=35 / SMGV>=30 (Horiba IG-320), natural gray",15654,SF,A2.0 area schedule + A8.0 finish sched,Core polished area. New 4000psi SOG.
+PC-02,Polished Concrete,Vestibule (104),Euclid polished concrete (same system),231,SF,A2.0 + A8.0,Confirm vestibule polished vs mat well.
+PC-03,Polished Concrete,Retail Sales,DEDUCT: vinyl-plank expanded-clothing area (not polished),TBD,SF,A2.1 keynote 33,RFI-02. Extent by final fixture plan (8 wks prior). Deduct/alternate.
+PC-04,Polished Concrete,Field,Dissipating-cure removal prep (Euco Clean & Strip),15885,SF,A9.0 3.07,Remove Kurez DR VOx/DR100 before polish.
+PC-05,Polished Concrete,Field,Euco Diamond Hard densifier/sealer - 1st app @225 SF/gal,~71,GAL,A9.0 3.07 Step Two,15885/225.
+PC-06,Polished Concrete,Field,Euco Diamond Hard densifier/sealer - 2nd app @700 SF/gal,~23,GAL,A9.0 3.07 Step Five,15885/700.
+PC-07,Polished Concrete,Field,Semi-rigid polyurea joint/crack fill (QwikJoint UVR),1150,LF,A9.0 + finish-plan note,"INCLUDED up to 1,150 LF. Control joints <=13' o.c.; overage = unit price."
+PC-08,Polished Concrete,Field,Joint-fill overage beyond 1150 LF,0,LF,A9.0 3.07,UNIT PRICE $__/LF. Actual grid may exceed 1150 LF.
+PC-09,Polished Concrete,Perimeter+columns,Edge / hand grind & polish band,~700,LF,A2.1 (est.),ESTIMATE. Needs dimensioned perimeter + column count.
+PC-10,Polished Concrete,Field,Return trip to refill separated joints,0,LF,A9.0 3.07,UNIT PRICE $__/LF per spec (one return trip).
+PC-11,Polished Concrete,Project,Test polish / mock-up (trained applicator),1,EA,A9.0 3.07,GC must accept before full polish.
+PC-12,Polished Concrete,Project,Gloss testing & report (Horiba IG-320),1,LS,A9.0 3.07,4 readings at 90 deg per location; report in 24 hr.
+PC-13,Polished Concrete,Project,Finished-floor protection,15885,SF,A9.0,Protect after polish through turnover.
+SC-01,Sealed Concrete,Stockroom (105),1-cut grind + Euco Diamond Hard seal/guard,3185,SF,A2.0 + A2.1 keynote 6,Related scope (same applicator). Separate price.
+SC-02,Sealed Concrete,Feed Storage (105B),1-cut grind + Euco Diamond Hard seal/guard,1868,SF,A2.0 + A2.1 keynote 6,Related scope. Confirm in our bid.
+SC-03,Sealed Concrete,Stockroom+Feed,Joint fill (QwikJoint UVR) within sealed areas,INCL,LF,A9.0,Part of 1150 LF allowance if shared; confirm.
+EP-01,Epoxy,Pet Wash (112),"Increte flake system: gray base + Granite Coat chips + clear grout + Polyseal polyaspartic wear",138,SF,A8.0 + A9.0,Wet area (FRP walls, drain).
+EP-02,Epoxy,Restrooms (Men 107 / Women 108),Increte flake system (same),~150,SF,A8.0 + A9.0,RFI-05 confirm restroom SF from A7.x enlarged plans.
+EP-03,Epoxy,Prep,Mechanically abrade to CSP 2-3 (ICRI 310.2) + pH check (D4262),~290,SF,A9.0,Shot blast/grind epoxy rooms.
+EP-04,Epoxy,Perimeter,4" integral epoxy cove base (to FRP/cement board),~110,LF,A9.0 item 10,ESTIMATE. Pet wash + 2 restrooms perimeter less openings.
+EP-05,Epoxy,Material,Increte HP Epoxy GRAY initial coat @120 SF/gal,~3,KIT,A9.0,1-gal kits; 290/120 + waste.
+EP-06,Epoxy,Material,Increte Granite Coat Chips (Mica) broadcast to refusal,~250,LB,A9.0,~0.7-1.0 lb/SF field + cove.
+EP-07,Epoxy,Material,Increte HP Epoxy CLEAR grout coat @120 SF/gal,~3,KIT,A9.0,1-gal kits.
+EP-08,Epoxy,Material,Increte Polyseal Polyaspartic CLEAR wear coat @120 SF/gal,~2,KIT,A9.0,2-gal kits.
+GN-01,General,Project,Mobilization (after building fully enclosed),1,EA,A9.0 3.07,Polish/epoxy start gated on enclosure.
+GN-02,General,Project,Pre-installation conference (TSC requirement) attendance,1,LS,A9.0 1.01.E,30 days prior; Euclid rep + GC + testing agency.
+GN-03,General,Project,Euclid rep on-site for 1st densifier application,1,LS,A9.0,Spec requires manufacturer rep on 1st app.
+GN-04,General,Project,Dust control / HEPA / slurry disposal,1,LS,A9.0,New-construction interior.
+QA-01,Quality,Project,Applicator qualification (Euclid approved list),1,LS,A9.0 1.01.D,BID GATE - must be Euclid-trained applicator.

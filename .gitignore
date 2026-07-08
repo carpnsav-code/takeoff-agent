@@ -2,3 +2,6 @@
 # Keep only the crops the diagrams actually reference.
 takeoffs/**/plan-images/*_full.png
 uploads/_examples-templates/images/*_full.png
+
+# TSC Chino Valley large source plan sets (regenerable from Dropbox; see SOURCES.md)
+uploads/tsc-chino-valley-az/**/*.pdf
