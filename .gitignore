@@ -5,3 +5,6 @@ uploads/_examples-templates/images/*_full.png
 
 # TSC Chino Valley large source plan sets (regenerable from Dropbox; see SOURCES.md)
 uploads/tsc-chino-valley-az/**/*.pdf
+
+# Clean Freak (Circle K) Peoria — civil/dry-utility source PDFs (not our scope)
+uploads/clean-freak-carwash-peoria-az/*.pdf
