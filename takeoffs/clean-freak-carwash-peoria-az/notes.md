@@ -47,17 +47,19 @@ trade. Confirm whether the epoxy contractor provides any integral cove (esp. wet
 
 ## 3. Quantities — see takeoff-quantity-sheet.csv
 
-⚠️ **A120 carries no room-area table and I have only the plan image (3/16"=1'-0"), not the
-dimensioned/CAD sheet.** Room SF below are **ESTIMATES** from plan proportions — confirm from the
-dimensioned plan (RFI-01) before pricing.
+**Measured from Sheet A100 (dimensioned floor plan).** Room depth **11'-8½"**; widths per the
+A100 dimension string:
 
-| Room | Est. SF |
-|---|---|
-| Office 100 | ~120 |
-| Break Room 104 | ~130 |
-| Storage 105 | ~70 |
-| Unisex Restroom 103 | ~60 |
-| **Total EPXY-2 (est.)** | **~380 SF** (range ~350–450) |
+| Room | Dimensions | SF |
+|---|---|---|
+| Office 100 | 11'-8" × 11'-8½" | 140 |
+| Break Room 104 | 15'-5" × 11'-8½" | 180 |
+| Storage 105 | 6'-4" × 11'-8½" | 75 |
+| Unisex Restroom 103 | 7'-7" × 11'-8½" | 90 |
+| **Total EPXY-2** | | **485 SF** |
+
+(Office may include a small lower extension near the drain chase — verify; treated as rectangular
+here. RFI-01 resolved via A100.)
 
 - Prep (profile + clean) ≈ 380 SF · Moisture/pH test per Dur-A-Flex.
 - Transitions/terminations at doorways to CS-1 broom-finish rooms — LF (est.).

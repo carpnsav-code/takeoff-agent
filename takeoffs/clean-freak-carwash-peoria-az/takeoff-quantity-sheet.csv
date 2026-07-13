@@ -1,11 +1,11 @@
 ID,Category,Area/Room,System/Description,Qty,Unit,Source (sheet/scale/schedule),Notes/Assumptions
-EP-01,Epoxy,Office (100),"EPXY-2 Dur-A-Flex Dur-A-Quartz One (gray), broadcast quartz epoxy",~120,SF,A120 Room Finish Sched,ESTIMATE - confirm dimensioned SF (RFI-01).
-EP-02,Epoxy,Break Room (104),EPXY-2 Dur-A-Quartz One (gray),~130,SF,A120,ESTIMATE - RFI-01.
-EP-03,Epoxy,Storage (105),EPXY-2 Dur-A-Quartz One (gray),~70,SF,A120,ESTIMATE - RFI-01.
-EP-04,Epoxy,Unisex Restroom (103),EPXY-2 Dur-A-Quartz One (gray),~60,SF,A120,ESTIMATE - RFI-01. Wet area.
-EP-05,Epoxy,All 4 rooms,Total EPXY-2 epoxy flooring,~380,SF,A120,ESTIMATE (range 350-450). Primary quantity.
-EP-06,Epoxy,Prep,Mechanical profile to CSP 2-3 + clean + pH/moisture check,~380,SF,Dur-A-Flex TDS / A120,New SOG. Confirm CSP + moisture limits (RFI-04).
-EP-07,Epoxy,System,"Build: primer + quartz broadcast + grout + seal/topcoat (Dur-A-Quartz One)",~380,SF,A120 legend + REF STRUCTURAL,Confirm exact coats/mil thickness (RFI-02).
+EP-01,Epoxy,Office (100),"EPXY-2 Dur-A-Flex Dur-A-Quartz One (gray), broadcast quartz epoxy",140,SF,A100 (11'-8" x 11'-8.5"),MEASURED from A100 dims.
+EP-02,Epoxy,Break Room (104),EPXY-2 Dur-A-Quartz One (gray),180,SF,A100 (15'-5" x 11'-8.5"),MEASURED from A100 dims.
+EP-03,Epoxy,Storage (105),EPXY-2 Dur-A-Quartz One (gray),75,SF,A100 (6'-4" x 11'-8.5"),MEASURED from A100 dims.
+EP-04,Epoxy,Unisex Restroom (103),EPXY-2 Dur-A-Quartz One (gray),90,SF,A100 (7'-7" x 11'-8.5"),MEASURED from A100 dims. Wet area.
+EP-05,Epoxy,All 4 rooms,Total EPXY-2 epoxy flooring,485,SF,A100 measured,Primary quantity (Office 140 + Break 180 + Storage 75 + RR 90).
+EP-06,Epoxy,Prep,Mechanical profile to CSP 2-3 + clean + pH/moisture check,485,SF,Dur-A-Flex TDS,New SOG. Confirm CSP + moisture limits (RFI-04).
+EP-07,Epoxy,System,"Build: primer + quartz broadcast + grout + seal/topcoat (Dur-A-Quartz One)",485,SF,A120 legend + REF STRUCTURAL,Confirm exact coats/mil thickness (RFI-02).
 EP-08,Epoxy,Terminations,Transitions/terminations at doorways to CS-1 rooms,~40,LF,A120 (est.),Keyed/saw-cut terminations at broom-finish concrete.
 EP-09,Epoxy,Cove (option),Integral epoxy cove base (restroom wet area) - IF in our scope,0,LF,A120 (base=RBR-1/MT-1),EXCLUDED base bid. Schedule shows rubber/tile base by others. RFI-03.
 EP-10,Epoxy,Material,Epoxy primer,~1,LOT,Dur-A-Flex TDS,Per coverage; confirm on system build.

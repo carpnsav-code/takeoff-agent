@@ -10,7 +10,7 @@ pricing per RFP (no lump sums).
 ## Inclusions
 1. **EPXY-2 epoxy flooring — Dur-A-Flex "Dur-A-Quartz One," gray** (broadcast quartz epoxy system:
    primer + quartz broadcast + grout + seal/topcoat) in **Office 100, Unisex Restroom 103, Break
-   Room 104, Storage 105** — **≈380 SF** (estimated; see qualification 1).
+   Room 104, Storage 105** — **485 SF** (measured from A100).
 2. Surface preparation: mechanical profile to the Dur-A-Flex-required CSP (2–3) + cleaning + pH/
    moisture check.
 3. Terminations at doorways/transitions to adjacent broom-finish concrete (≈40 LF).

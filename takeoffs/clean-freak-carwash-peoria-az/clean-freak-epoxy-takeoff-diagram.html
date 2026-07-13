@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Clean Freak Peoria — Epoxy Flooring Takeoff</title>
+<style>
+  :root{
+    --ink:#0f172a; --muted:#475569;
+    --epox:#7c3aed; --epox-dk:#4c1d95;   /* epoxy = purple */
+    --risk:#b91c1c; --rfi:#7c3aed; --ok:#0f766e;
+    --panelline:#e2e8f0; --bg:#eef2f6;
+  }
+  html,body{margin:0;background:var(--bg);color:var(--ink);font-family:"Segoe UI",Roboto,Arial,sans-serif;}
+  .wrap{max-width:2180px;margin:0 auto;padding:14px;}
+  svg{width:100%;height:auto;display:block;background:#fff;border:1px solid var(--panelline);border-radius:10px;box-shadow:0 1px 4px rgba(15,23,42,.10);}
+  .sub{font-size:12px;color:var(--muted);margin:6px 4px 0;}
+</style>
+</head>
+<body>
+<div class="wrap">
+<svg viewBox="0 0 2180 1060" role="img" aria-label="Clean Freak epoxy takeoff on A100 floor plan">
+  <!-- HEADER -->
+  <rect x="0" y="0" width="2180" height="66" fill="#4c1d95"/>
+  <text x="22" y="30" fill="#fff" font-size="22" font-weight="700">CLEAN FREAK CAR WASH — Peoria, AZ · Epoxy Flooring Takeoff</text>
+  <text x="22" y="52" fill="#e9d5ff" font-size="13">El Mirage Rd &amp; Vistancia Blvd (Circle K) · EPXY-2 Dur-A-Flex Dur-A-Quartz One · Marked up on Sheet A100 (3/16"=1'-0") · Prepared 2026-07-13</text>
+  <text x="2158" y="30" fill="#fff" font-size="13" text-anchor="end" font-weight="700">PURPLE = epoxy scope</text>
+  <text x="2158" y="50" fill="#e9d5ff" font-size="12" text-anchor="end">SF measured from A100 dimensions</text>
+
+  <!-- LEFT: PLAN + OVERLAY (local 1500 x 897 ; crop aspect 4280:2560 = 1.672) -->
+  <text x="22" y="86" font-size="15" font-weight="700">SHEET A100 — FLOOR PLAN (front admin block) · epoxy rooms highlighted, SF measured</text>
+  <svg x="20" y="92" width="1500" height="897" viewBox="0 0 1500 897">
+    <image href="plan-images/A100_admin_block.png" x="0" y="0" width="1500" height="897" preserveAspectRatio="xMidYMid meet"/>
+
+    <!-- EPOXY rooms (purple) -->
+    <g>
+      <rect x="195" y="155" width="260" height="235" fill="var(--epox)" opacity="0.26" stroke="var(--epox-dk)" stroke-width="3.5"/>
+      <rect x="455" y="155" width="265" height="235" fill="var(--epox)" opacity="0.26" stroke="var(--epox-dk)" stroke-width="3.5"/>
+      <rect x="720" y="155" width="108" height="235" fill="var(--epox)" opacity="0.26" stroke="var(--epox-dk)" stroke-width="3.5"/>
+      <rect x="828" y="155" width="172" height="235" fill="var(--epox)" opacity="0.26" stroke="var(--epox-dk)" stroke-width="3.5"/>
+    </g>
+
+    <!-- NOT OUR SCOPE (gray): tunnel/EQ below + tunnel to the right -->
+    <rect x="195" y="392" width="1290" height="497" fill="#94a3b8" opacity="0.30"/>
+    <rect x="1002" y="155" width="483" height="237" fill="#94a3b8" opacity="0.30"/>
+    <text x="640" y="640" font-size="19" font-weight="700" fill="#334155" text-anchor="middle">WASH TUNNEL 109 · MECH 107 · ELEC 108 · FIRE RISER 110</text>
+    <text x="640" y="666" font-size="14" fill="#334155" text-anchor="middle">CS-1 exposed concrete, broom finish — NOT our scope (no coating/seal)</text>
+    <text x="1243" y="275" font-size="12" fill="#334155" text-anchor="middle">tunnel (CS-1) →</text>
+
+    <!-- SF badges -->
+    <g text-anchor="middle" font-family="Segoe UI, Arial">
+      <g><rect x="252" y="298" width="146" height="52" rx="7" fill="#fff" stroke="var(--epox-dk)" stroke-width="1.8" opacity="0.97"/>
+         <text x="325" y="318" font-size="12" fill="var(--muted)">OFFICE 100</text>
+         <text x="325" y="340" font-size="17" font-weight="800" fill="var(--epox-dk)">140 SF</text></g>
+      <g><rect x="514" y="298" width="146" height="52" rx="7" fill="#fff" stroke="var(--epox-dk)" stroke-width="1.8" opacity="0.97"/>
+         <text x="587" y="318" font-size="12" fill="var(--muted)">BREAK RM 104</text>
+         <text x="587" y="340" font-size="17" font-weight="800" fill="var(--epox-dk)">180 SF</text></g>
+      <g><rect x="700" y="404" width="128" height="50" rx="7" fill="#fff" stroke="var(--epox-dk)" stroke-width="1.8" opacity="0.97"/>
+         <text x="764" y="423" font-size="11.5" fill="var(--muted)">STORAGE 105</text>
+         <text x="764" y="444" font-size="16" font-weight="800" fill="var(--epox-dk)">75 SF</text></g>
+      <g><rect x="850" y="404" width="150" height="50" rx="7" fill="#fff" stroke="var(--epox-dk)" stroke-width="1.8" opacity="0.97"/>
+         <text x="925" y="423" font-size="11.5" fill="var(--muted)">RESTROOM 103</text>
+         <text x="925" y="444" font-size="16" font-weight="800" fill="var(--epox-dk)">90 SF</text></g>
+    </g>
+
+    <!-- LEGEND -->
+    <g>
+      <rect x="1120" y="612" width="360" height="255" rx="8" fill="#fff" stroke="var(--panelline)" opacity="0.98"/>
+      <text x="1138" y="640" font-size="15" font-weight="700">LEGEND</text>
+      <rect x="1138" y="656" width="26" height="16" fill="var(--epox)" opacity="0.28" stroke="var(--epox-dk)" stroke-width="2"/>
+      <text x="1174" y="669" font-size="13" fill="var(--muted)">EPXY-2 epoxy flooring (our scope)</text>
+      <rect x="1138" y="682" width="26" height="16" fill="#94a3b8" opacity="0.32"/>
+      <text x="1174" y="695" font-size="13" fill="var(--muted)">CS-1 broom-finish concrete (not ours)</text>
+      <text x="1138" y="726" font-size="12" fill="var(--muted)">SF measured from A100 dims (depth 11'-8½").</text>
+      <text x="1138" y="746" font-size="12" fill="var(--muted)">Wash tunnel / mech / elec / fire riser =</text>
+      <text x="1138" y="764" font-size="12" fill="var(--muted)">bare broom-finish concrete, another trade.</text>
+      <text x="1138" y="792" font-size="12" fill="var(--muted)">Wall base (rubber/tile) by others — no</text>
+      <text x="1138" y="810" font-size="12" fill="var(--muted)">integral epoxy cove specified (RFI-03).</text>
+      <text x="1138" y="840" font-size="11.5" fill="var(--epox-dk)" font-weight="700">Total epoxy = 485 SF (4 rooms).</text>
+    </g>
+  </svg>
+
+  <!-- RIGHT PANELS -->
+  <!-- SPEC -->
+  <rect x="1540" y="92" width="620" height="216" rx="8" fill="#f5f3ff" stroke="#ddd6fe"/>
+  <rect x="1540" y="92" width="620" height="26" rx="8" fill="var(--epox)"/>
+  <text x="1554" y="110" fill="#fff" font-size="13" font-weight="700">EPOXY SPECIFIED — EPXY-2 (A120)</text>
+  <g font-size="12.5" fill="var(--ink)">
+    <text x="1554" y="140"><tspan font-weight="700">System:</tspan> Dur-A-Flex “Dur-A-Quartz One,” gray</text>
+    <text x="1554" y="162">Broadcast quartz epoxy (seamless, slip-resistant)</text>
+    <text x="1554" y="184"><tspan font-weight="700">Build:</tspan> primer + quartz broadcast + grout + seal/topcoat</text>
+    <text x="1554" y="206"><tspan font-weight="700">Prep:</tspan> mechanically profile to CSP 2-3 (ICRI 310.2)</text>
+    <text x="1554" y="228">+ pH / moisture check (new slab-on-grade)</text>
+    <text x="1554" y="250"><tspan font-weight="700">Base:</tspan> rubber (RBR-1) / tile (MT-1) — by others</text>
+    <text x="1554" y="272"><tspan font-weight="700">Where:</tspan> Office 100, Restroom 103, Break 104, Storage 105</text>
+    <text x="1554" y="294"><tspan font-weight="700">Exact mil build:</tspan> “ref structural” — confirm (RFI-02)</text>
+  </g>
+
+  <!-- MEASUREMENTS -->
+  <rect x="1540" y="320" width="620" height="204" rx="8" fill="#ecfeff" stroke="#a5e0ec"/>
+  <rect x="1540" y="320" width="620" height="26" rx="8" fill="var(--ok)"/>
+  <text x="1554" y="338" fill="#fff" font-size="13" font-weight="700">MEASUREMENTS — from A100 dimensions</text>
+  <g font-size="12.5" fill="var(--ink)">
+    <text x="1554" y="366">Office 100 (11'-8" × 11'-8½")</text><text x="2146" y="366" text-anchor="end" font-weight="700">140 SF</text>
+    <text x="1554" y="390">Break Room 104 (15'-5" × 11'-8½")</text><text x="2146" y="390" text-anchor="end" font-weight="700">180 SF</text>
+    <text x="1554" y="414">Storage 105 (6'-4" × 11'-8½")</text><text x="2146" y="414" text-anchor="end" font-weight="700">75 SF</text>
+    <text x="1554" y="438">Unisex Restroom 103 (7'-7" × 11'-8½")</text><text x="2146" y="438" text-anchor="end" font-weight="700">90 SF</text>
+    <line x1="1900" y1="450" x2="2146" y2="450" stroke="#a5e0ec"/>
+    <text x="1554" y="474" font-weight="700">Total epoxy flooring</text><text x="2146" y="474" text-anchor="end" font-size="16" font-weight="800" fill="var(--ok)">485 SF</text>
+    <text x="1554" y="500" font-size="11.5" fill="var(--muted)">Terminations at CS-1 doorways ≈ 40 LF · prep 485 SF.</text>
+  </g>
+
+  <!-- EXCLUSIONS -->
+  <rect x="1540" y="536" width="620" height="150" rx="8" fill="#fef2f2" stroke="#f4c7c7"/>
+  <rect x="1540" y="536" width="620" height="26" rx="8" fill="var(--risk)"/>
+  <text x="1554" y="554" fill="#fff" font-size="13" font-weight="700">EXCLUSIONS / BY OTHERS</text>
+  <g font-size="12.5" fill="#7f1d1d">
+    <text x="1554" y="582">• CS-1 broom-finish concrete (tunnel/mech/elec/fire riser)</text>
+    <text x="1554" y="604">• Wall base — rubber (RBR-1) / tile (MT-1) by others</text>
+    <text x="1554" y="626">• Slab, cure, floor drains, trench drain, slope-to-drain</text>
+    <text x="1554" y="648">• Moisture mitigation if test exceeds limits (unit price)</text>
+    <text x="1554" y="670">• Tile, wall panels, paint, all non-epoxy finishes</text>
+  </g>
+
+  <!-- RFIs -->
+  <rect x="1540" y="698" width="620" height="292" rx="8" fill="#f5f3ff" stroke="#ddd6fe"/>
+  <rect x="1540" y="698" width="620" height="26" rx="8" fill="var(--rfi)"/>
+  <text x="1554" y="716" fill="#fff" font-size="13" font-weight="700">RFIs (due Jul 10) — full list in rfi-list.md</text>
+  <g font-size="12.5" fill="#4c1d95">
+    <text x="1554" y="744">✓ 01  Room SF — RESOLVED via A100 (485 SF measured)</text>
+    <text x="1554" y="768">★ 02  Dur-A-Quartz system build / mil thickness (“ref struct.”)</text>
+    <text x="1554" y="792">   03  Integral epoxy cove at wet Restroom 103? (base=rubber/tile)</text>
+    <text x="1554" y="816">   04  Slab cure + moisture limits; who owns mitigation</text>
+    <text x="1554" y="840">   05  Confirm CS-1 rooms excluded (no seal/coating)</text>
+    <text x="1554" y="864">   06  Mock-up / warranty required?</text>
+    <text x="1554" y="900" font-size="12" fill="#6d28d9">Circle K GC bid · unit-cost pricing (no lump sums) · bids due Jul 24.</text>
+    <text x="1554" y="928" font-size="12" fill="#6d28d9">Base bid excludes cove &amp; mitigation — offered as unit-price adds.</text>
+  </g>
+</svg>
+<p class="sub">Clean Freak Car Wash (Circle K), Peoria AZ — epoxy flooring takeoff on Sheet A100. Epoxy = 4 front admin rooms (485 SF measured); wash tunnel + mech/elec = CS-1 broom-finish concrete (other trade). See takeoff-quantity-sheet.csv, scope-letter.md, rfi-list.md, notes.md.</p>
+</div>
+</body>
+</html>
